@@ -1,0 +1,128 @@
+body {
+    background: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80") center 75% no-repeat fixed;
+    background-size: cover;
+    font-family: 'Raleway' , sans-serif;
+}
+nav {
+    background-color:whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    z-index: 1;
+}
+nav ul li {
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+    text-align: center;
+}
+#brand {
+    float: left;
+}
+.nav-link {
+    color:slategray;
+    text-decoration: none;
+    font-family: 'Acme' , sans-serif;
+}
+.nav-link:hover {
+    color: slateblue;
+    font-weight: bold;
+}
+#brand .nav-link {
+    color: black;
+    font-size: 20pt;
+}
+#brand .nav-link:hover {
+    color: slateblue;
+}
+#home {
+    margin-top:400px;
+    position: relative;
+    left: 900px;
+    width: 100vw;
+    height: 30vh;
+    padding-top: 3em;
+}
+h2 {
+    font-family: 'Acme', sans-serif;
+    color:grey;
+    font-size: 40pt;
+}
+.main {
+    text-align: center;
+}
+#about {
+    margin-top: 200px;
+    display: inline-block;
+}
+#about-picture {
+    width: 40vw;
+    float: top;
+}
+#profile-pic {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 0.4em;
+    box-shadow: 2px 2px 2px black;
+}
+#about-content {
+    width: 40vw;
+    float: bottom;
+    color: snow;
+}
+#p {
+    font-family: 'raleway' , sans-serif;
+    font-size: 22pt;
+    color:white;
+    text-shadow: .2px .2px .2px black;
+}
+h3 {
+    font-family: 'Acme', sans-serif;
+    color:white;
+    font-size: 25pt;
+    
+}
+#p1 {
+    font-family: 'raleway' , sans-serif;
+    font-size: 18pt;
+    color:white;
+    text-shadow: .2px .2px .2px black;
+    margin-top: 200px;
+}
+#contact-form {
+  margin: auto;
+  margin-top: 100px;
+  width: 30vw;
+  background-color: grey;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 50px;
+  border-radius: .4em;
+}
+#contact-formm input {
+  width: 90%;
+  margin-bottom: 20px;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+#contact-form h2{
+  color: white;
+  font-size: 28pt;
+  text-shadow: 2px 2px 2px black;
+}
+#textarea{
+  resize: none;
+  height: 200px;
+  width: 90%;
+  margin-bottom: 30px;
+}
+#intro {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
